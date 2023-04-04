@@ -3,46 +3,46 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-04T11:58:45.965Z",
+        "start_timestamp": "2023-04-04T13:12:09.663Z",
         "line": 3,
-        "name": "I want to launch the url",
+        "name": "Launch the url",
         "description": "",
-        "id": "google-signup;i-want-to-launch-the-url",
+        "id": "youtube-signup;launch-the-url",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4256322700,
+              "duration": 9282962000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I am able to enter the Url",
+            "name": "I want to enter the Url",
             "match": {
-              "location": "Maret_Step_Definition.GoogleSignUp.i_am_able_to_enter_the_url()"
+              "location": "Maret_Step_Definition.Youtube.i_want_to_enter_the_url()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 185998700,
+              "duration": 1060730500,
               "status": "passed"
             },
             "line": 6,
-            "name": "close the url",
+            "name": "close url",
             "match": {
-              "location": "Maret_Step_Definition.GoogleSignUp.close_the_url()"
+              "location": "Maret_Step_Definition.Youtube.close_url()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Google signup",
+    "name": "Youtube signup",
     "description": "",
-    "id": "google-signup",
+    "id": "youtube-signup",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Feature/Googlesignup.feature",
+    "uri": "file:src/test/resources/Feature/Youtube.feature",
     "tags": []
   }
 ]
