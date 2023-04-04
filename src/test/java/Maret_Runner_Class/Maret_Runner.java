@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 
   @CucumberOptions(features = "C:\\Users\\Dinesh K\\eclipse-workspace\\Maret\\src\\test\\resources\\Feature\\Maret_Signup.feature",
   glue= "Maret_Step_Definition" , 
-  plugin={"pretty","json:Report/NewMaretSignUp_Test1.json"
+  plugin={"pretty","json:Report/NewMaretSignUp_Test.json"
 		  ,"html:CucumberReport/NewMaretSignUp_Test1"
 		  ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
   publish = true, 
