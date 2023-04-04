@@ -16,6 +16,6 @@ Given I am on the Signup page
   
   Examples:
   | First Name | Last Name|   DOB       | Citizenship| Current Location | Mobile Number | Email |
-  | Dinesh     | K        |  02-07-2001 | India   |   Chennai        | 6379732890    | feyaj430487@wiroute.com |
+  | DineshKrishnan    | K        |  02-07-2001 | India   |   Chennai        | 6379732890    | feyaj430487@wiroute.com |
   | 11111       | 2        |  11111111  | 1119       |   1115           | DineshK   |  111285@gmail.com |
   |            |          |            |            |                  |           |                   |       
