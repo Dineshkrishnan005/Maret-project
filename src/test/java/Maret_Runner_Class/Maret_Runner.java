@@ -9,8 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 
   @CucumberOptions(features = "C:\\Users\\Dinesh K\\eclipse-workspace\\Maret\\src\\test\\resources\\Feature",
   glue= "Maret_Step_Definition" , 
-  plugin={"pretty","json:Report/NewMaretSignUp_Test1.json"
-		  ,"html:CucumberReport/NewMaretSignUp_Test2"
+  plugin={"pretty","json:Report/NewMaret.json"
+		  ,"html:CucumberReport/NewMaret"
 		  ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
   publish = true, 
   monochrome= true,
