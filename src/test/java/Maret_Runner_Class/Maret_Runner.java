@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 
-  @CucumberOptions(features = "C:\\Users\\Dinesh K\\eclipse-workspace\\Maret\\src\\test\\resources\\Feature",
+  @CucumberOptions(features = "C:\\Users\\Sachithanandhan.S\\git\\Maret-project\\src\\test\\resources\\Feature",
   glue= "Maret_Step_Definition" , 
   plugin={"pretty","json:Report/NewMaretSignUp_Test.json"
 		  ,"html:CucumberReport/NewMaretSignUp_Test1"
@@ -17,7 +17,8 @@ import io.cucumber.junit.CucumberOptions;
   dryRun= false)
  
 
-public class Maret_Runner {
+public class Maret_Runner 
+{
 
 	 
 }
