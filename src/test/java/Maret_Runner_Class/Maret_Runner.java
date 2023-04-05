@@ -20,5 +20,5 @@ import io.cucumber.junit.CucumberOptions;
 public class Maret_Runner 
 {
 
-	 
+	//"C:\\Users\\Dinesh K\\eclipse-workspace\\Maret\\src\\test\\resources\\Feature"
 }
