@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 
-  @CucumberOptions(features = "C:\\\\Users\\\\Dinesh K\\\\eclipse-workspace\\\\Maret\\\\src\\\\test\\\\resources\\\\Feature",
+  @CucumberOptions(features = "C:\\Users\\Dinesh K\\eclipse-workspace\\Maret\\src\\test\\resources\\Feature",
   glue= "Maret_Step_Definition" , 
   plugin={"pretty","json:Report/NewMaretSignUp_Test1.json"
 		  ,"html:CucumberReport/NewMaretSignUp_Test2"
