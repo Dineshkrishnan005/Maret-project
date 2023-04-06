@@ -3,6 +3,7 @@
     "line": 1,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2023-04-06T12:45:35.157Z",
         "line": 3,
         "name": "Open Empower site",
@@ -43,6 +44,48 @@
     "id": "empower-website-test",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Feature/empowerTherapy.feature",
+=======
+        "start_timestamp": "2023-04-06T13:09:51.267Z",
+        "line": 3,
+        "name": "I want to launch the OrangeHrm  url",
+        "description": "",
+        "id": "orangehrm-signup;i-want-to-launch-the-orangehrm--url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9704514400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am able to enter the OrangeHrm Url",
+            "match": {
+              "location": "Maret_Step_Definition.OrangeHrm.i_am_able_to_enter_the_orange_hrm_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 348964300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the OrangeHrm  url",
+            "match": {
+              "location": "Maret_Step_Definition.OrangeHrm.close_the_orange_hrm_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHrm signup",
+    "description": "",
+    "id": "orangehrm-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/orangehrm.feature",
+>>>>>>> refs/remotes/origin/BranchX
     "tags": []
   }
 ]
