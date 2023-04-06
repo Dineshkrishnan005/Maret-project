@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-06T12:45:35.157Z",
+        "line": 3,
+        "name": "Open Empower site",
+        "description": "",
+        "id": "empower-website-test;open-empower-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15240502400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Empower Url",
+            "match": {
+              "location": "Maret_Step_Definition.empowersiteTest.open_empower_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 865220200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Close Empower Url",
+            "match": {
+              "location": "Maret_Step_Definition.empowersiteTest.close_empower_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Empower website test",
+    "description": "",
+    "id": "empower-website-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/empowerTherapy.feature",
+    "tags": []
+  }
+]

@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
   @CucumberOptions(features = "C:\\Users\\Dinesh K\\eclipse-workspace\\Maret\\src\\test\\resources\\Feature",
-  glue= "Maret_Step_Definition" , 
+       glue= "Maret_Step_Definition" , 
   plugin={"pretty","json:Report/NewMaret.json"
 		  ,"html:CucumberReport/NewMaret"
 		  ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
