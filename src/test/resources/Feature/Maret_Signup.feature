@@ -15,7 +15,7 @@ Given I am on the Signup page
   Then I should be redirected to the dashboard page
   
   Examples:
-  | First Name | Last Name|   DOB       | Citizenship| Current Location | Mobile Number | Email |
+  | First Name | Last Name|   DOB       | Citizenship| Current Location | Mobile Number | Email | 
   | DineshKrish    | Krish        |  02-07-2001 | India   |   Chennai        | 6379732890    | feyaj430487@wiroute.com |
-  | 11111       | 2        |  11111111  | 1119       |   1115           | DineshK   |  111285@gmail.com |
-  |            |          |            |            |                  |           |                   |       
+  | 11111       | 2        |  11111111  | 1119       |   1115           | DineshK   |  111285@gmail.com | 
+  |            |          |            |            |                  |           |                   |    
