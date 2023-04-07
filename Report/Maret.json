@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-06T13:27:25.932Z",
+        "start_timestamp": "2023-04-07T07:41:33.453Z",
         "line": 3,
         "name": "Open Amazon site",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5826004800,
+              "duration": 5659504800,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 505101900,
+              "duration": 373001400,
               "status": "passed"
             },
             "line": 5,
@@ -49,7 +49,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-06T13:27:32.638Z",
+        "start_timestamp": "2023-04-07T07:41:39.645Z",
         "line": 3,
         "name": "launch the url",
         "description": "",
@@ -59,7 +59,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5473757600,
+              "duration": 4286906000,
               "status": "passed"
             },
             "line": 5,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 535087000,
+              "duration": 190002800,
               "status": "passed"
             },
             "line": 6,
@@ -95,7 +95,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-06T13:27:38.674Z",
+        "start_timestamp": "2023-04-07T07:41:44.155Z",
         "line": 3,
         "name": "I want to launch the url",
         "description": "",
@@ -105,7 +105,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4301163100,
+              "duration": 2783867800,
               "status": "passed"
             },
             "line": 5,
@@ -117,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 353499400,
+              "duration": 244341100,
               "status": "passed"
             },
             "line": 6,
@@ -141,7 +141,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-06T13:27:43.449Z",
+        "start_timestamp": "2023-04-07T07:41:47.224Z",
         "line": 19,
         "name": "Signup with credential",
         "description": "",
@@ -151,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8211754000,
+              "duration": 5571859500,
               "status": "passed"
             },
             "line": 5,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 3207995200,
+              "duration": 3110639300,
               "status": "passed"
             },
             "line": 6,
@@ -181,7 +181,7 @@
           },
           {
             "result": {
-              "duration": 3135285600,
+              "duration": 3090922700,
               "status": "passed"
             },
             "line": 7,
@@ -199,7 +199,7 @@
           },
           {
             "result": {
-              "duration": 3205395500,
+              "duration": 3127568900,
               "status": "passed"
             },
             "line": 8,
@@ -217,8 +217,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput class\u003d\"form-check-input\" type\u003d\"radio\" name\u003d\"gender\" value\u003d\"Female\" id\u003d\"filter-1\"\u003e is not clickable at point (201, 177). Other element would receive the click: \u003cth class\u003d\"dow\"\u003e...\u003c/th\u003e\n  (Session info: chrome\u003d111.0.5563.147)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2c4327bd25eb03132d85b916ccc18f04, clickElement {id\u003dad90996d-7710-45b8-8911-53e17630b3dc}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\DINESH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:65010}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65010/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (2c4327bd25eb03132d85b916ccc18f04)] -\u003e xpath: (//input[@name\u003d\u0027gender\u0027])[2]]\nSession ID: 2c4327bd25eb03132d85b916ccc18f04\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender(Maret_Signup.java:46)\r\n\tat ✽.I am able to pick the gender(file:///C:/Users/Dinesh%20K/eclipse-workspace/Maret/src/test/resources/Feature/Maret_Signup.feature:9)\r\n",
-              "duration": 1148699000,
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput class\u003d\"form-check-input\" type\u003d\"radio\" name\u003d\"gender\" value\u003d\"Female\" id\u003d\"filter-1\"\u003e is not clickable at point (201, 177). Other element would receive the click: \u003cth class\u003d\"dow\"\u003e...\u003c/th\u003e\n  (Session info: chrome\u003d112.0.5615.49)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a5233e5a3d738a18acdb7028037dec46, clickElement {id\u003d0c9d116c-a985-4ecb-8222-5082b7acd3e1}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\DINESH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61097/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (a5233e5a3d738a18acdb7028037dec46)] -\u003e xpath: (//input[@name\u003d\u0027gender\u0027])[2]]\nSession ID: a5233e5a3d738a18acdb7028037dec46\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender(Maret_Signup.java:46)\r\n\tat ✽.I am able to pick the gender(file:///C:/Users/Dinesh%20K/eclipse-workspace/Maret/src/test/resources/Feature/Maret_Signup.feature:9)\r\n",
+              "duration": 1149460400,
               "status": "failed"
             },
             "line": 9,
@@ -230,7 +230,6 @@
           },
           {
             "result": {
-              "duration": 996800,
               "status": "skipped"
             },
             "line": 10,
@@ -248,7 +247,6 @@
           },
           {
             "result": {
-              "duration": 996900,
               "status": "skipped"
             },
             "line": 11,
@@ -266,6 +264,7 @@
           },
           {
             "result": {
+              "duration": 998700,
               "status": "skipped"
             },
             "line": 12,
@@ -300,7 +299,6 @@
           },
           {
             "result": {
-              "duration": 989400,
               "status": "skipped"
             },
             "line": 14,
@@ -312,6 +310,7 @@
           },
           {
             "result": {
+              "duration": 997300,
               "status": "skipped"
             },
             "line": 15,
@@ -324,7 +323,7 @@
         ]
       },
       {
-        "start_timestamp": "2023-04-06T13:28:02.495Z",
+        "start_timestamp": "2023-04-07T07:42:03.349Z",
         "line": 20,
         "name": "Signup with credential",
         "description": "",
@@ -334,7 +333,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9635813300,
+              "duration": 5109612800,
               "status": "passed"
             },
             "line": 5,
@@ -346,7 +345,7 @@
           },
           {
             "result": {
-              "duration": 3179865000,
+              "duration": 3077064200,
               "status": "passed"
             },
             "line": 6,
@@ -364,7 +363,7 @@
           },
           {
             "result": {
-              "duration": 3091605000,
+              "duration": 3073556200,
               "status": "passed"
             },
             "line": 7,
@@ -382,7 +381,7 @@
           },
           {
             "result": {
-              "duration": 3162420500,
+              "duration": 3149368700,
               "status": "passed"
             },
             "line": 8,
@@ -400,8 +399,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput class\u003d\"form-check-input\" type\u003d\"radio\" name\u003d\"gender\" value\u003d\"Female\" id\u003d\"filter-1\"\u003e is not clickable at point (201, 177). Other element would receive the click: \u003cth class\u003d\"dow\"\u003e...\u003c/th\u003e\n  (Session info: chrome\u003d111.0.5563.147)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8a0f4f0fabe859c3c49c2e77c282ba75, clickElement {id\u003dc8489f75-1433-4fb5-8f44-f3576187febb}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\DINESH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:65045}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65045/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (8a0f4f0fabe859c3c49c2e77c282ba75)] -\u003e xpath: (//input[@name\u003d\u0027gender\u0027])[2]]\nSession ID: 8a0f4f0fabe859c3c49c2e77c282ba75\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender(Maret_Signup.java:46)\r\n\tat ✽.I am able to pick the gender(file:///C:/Users/Dinesh%20K/eclipse-workspace/Maret/src/test/resources/Feature/Maret_Signup.feature:9)\r\n",
-              "duration": 1092080400,
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput class\u003d\"form-check-input\" type\u003d\"radio\" name\u003d\"gender\" value\u003d\"Female\" id\u003d\"filter-1\"\u003e is not clickable at point (201, 177). Other element would receive the click: \u003cth class\u003d\"dow\"\u003e...\u003c/th\u003e\n  (Session info: chrome\u003d112.0.5615.49)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e02beb9364efc50a8145f44735b21467, clickElement {id\u003d9214e57a-a54f-4fa7-a5e0-038d8a0df84b}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\DINESH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61128/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (e02beb9364efc50a8145f44735b21467)] -\u003e xpath: (//input[@name\u003d\u0027gender\u0027])[2]]\nSession ID: e02beb9364efc50a8145f44735b21467\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender(Maret_Signup.java:46)\r\n\tat ✽.I am able to pick the gender(file:///C:/Users/Dinesh%20K/eclipse-workspace/Maret/src/test/resources/Feature/Maret_Signup.feature:9)\r\n",
+              "duration": 1107149700,
               "status": "failed"
             },
             "line": 9,
@@ -413,6 +412,7 @@
           },
           {
             "result": {
+              "duration": 995100,
               "status": "skipped"
             },
             "line": 10,
@@ -430,7 +430,7 @@
           },
           {
             "result": {
-              "duration": 998800,
+              "duration": 998900,
               "status": "skipped"
             },
             "line": 11,
@@ -465,7 +465,7 @@
           },
           {
             "result": {
-              "duration": 998500,
+              "duration": 1501200,
               "status": "skipped"
             },
             "line": 13,
@@ -494,7 +494,6 @@
           },
           {
             "result": {
-              "duration": 5985400,
               "status": "skipped"
             },
             "line": 15,
@@ -507,7 +506,7 @@
         ]
       },
       {
-        "start_timestamp": "2023-04-06T13:28:22.718Z",
+        "start_timestamp": "2023-04-07T07:42:18.916Z",
         "line": 21,
         "name": "Signup with credential",
         "description": "",
@@ -517,7 +516,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7010160700,
+              "duration": 4978945500,
               "status": "passed"
             },
             "line": 5,
@@ -529,7 +528,7 @@
           },
           {
             "result": {
-              "duration": 3078395300,
+              "duration": 3075438800,
               "status": "passed"
             },
             "line": 6,
@@ -547,7 +546,7 @@
           },
           {
             "result": {
-              "duration": 3082941800,
+              "duration": 3072889100,
               "status": "passed"
             },
             "line": 7,
@@ -565,7 +564,7 @@
           },
           {
             "result": {
-              "duration": 3100647700,
+              "duration": 3084923700,
               "status": "passed"
             },
             "line": 8,
@@ -583,8 +582,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput class\u003d\"form-check-input\" type\u003d\"radio\" name\u003d\"gender\" value\u003d\"Female\" id\u003d\"filter-1\"\u003e is not clickable at point (201, 177). Other element would receive the click: \u003cth class\u003d\"dow\"\u003e...\u003c/th\u003e\n  (Session info: chrome\u003d111.0.5563.147)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0dce48789426cd7118c9c91baf2eb9be, clickElement {id\u003d274f1792-2abe-4ec8-be46-32d148550dcd}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\\Users\\DINESH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:65081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65081/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (0dce48789426cd7118c9c91baf2eb9be)] -\u003e xpath: (//input[@name\u003d\u0027gender\u0027])[2]]\nSession ID: 0dce48789426cd7118c9c91baf2eb9be\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender(Maret_Signup.java:46)\r\n\tat ✽.I am able to pick the gender(file:///C:/Users/Dinesh%20K/eclipse-workspace/Maret/src/test/resources/Feature/Maret_Signup.feature:9)\r\n",
-              "duration": 1114986300,
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput class\u003d\"form-check-input\" type\u003d\"radio\" name\u003d\"gender\" value\u003d\"Female\" id\u003d\"filter-1\"\u003e is not clickable at point (201, 177). Other element would receive the click: \u003cth class\u003d\"dow\"\u003e...\u003c/th\u003e\n  (Session info: chrome\u003d112.0.5615.49)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7f6671e3af68474146dcad2a0d65e742, clickElement {id\u003d8dfdc398-4dc8-46b2-bb3a-33fb1c3d487d}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\DINESH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61159}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61159/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (7f6671e3af68474146dcad2a0d65e742)] -\u003e xpath: (//input[@name\u003d\u0027gender\u0027])[2]]\nSession ID: 7f6671e3af68474146dcad2a0d65e742\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender(Maret_Signup.java:46)\r\n\tat ✽.I am able to pick the gender(file:///C:/Users/Dinesh%20K/eclipse-workspace/Maret/src/test/resources/Feature/Maret_Signup.feature:9)\r\n",
+              "duration": 1062203100,
               "status": "failed"
             },
             "line": 9,
@@ -596,6 +595,7 @@
           },
           {
             "result": {
+              "duration": 996600,
               "status": "skipped"
             },
             "line": 10,
@@ -613,7 +613,6 @@
           },
           {
             "result": {
-              "duration": 997400,
               "status": "skipped"
             },
             "line": 11,
@@ -631,7 +630,7 @@
           },
           {
             "result": {
-              "duration": 996300,
+              "duration": 996000,
               "status": "skipped"
             },
             "line": 12,
@@ -649,6 +648,7 @@
           },
           {
             "result": {
+              "duration": 998400,
               "status": "skipped"
             },
             "line": 13,
@@ -677,7 +677,6 @@
           },
           {
             "result": {
-              "duration": 996300,
               "status": "skipped"
             },
             "line": 15,
@@ -701,7 +700,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-06T13:28:40.143Z",
+        "start_timestamp": "2023-04-07T07:42:34.221Z",
         "line": 3,
         "name": "launch the Mynthra url",
         "description": "",
@@ -711,7 +710,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7126227600,
+              "duration": 6171284100,
               "status": "passed"
             },
             "line": 5,
@@ -723,7 +722,7 @@
           },
           {
             "result": {
-              "duration": 679093900,
+              "duration": 257269300,
               "status": "passed"
             },
             "line": 6,
@@ -747,7 +746,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-06T13:28:48.120Z",
+        "start_timestamp": "2023-04-07T07:42:40.747Z",
         "line": 3,
         "name": "Open 1clx site",
         "description": "",
@@ -766,7 +765,7 @@
           },
           {
             "result": {
-              "duration": 997200,
+              "duration": 998000,
               "status": "skipped"
             },
             "line": 5,
@@ -788,7 +787,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-06T13:28:48.136Z",
+        "start_timestamp": "2023-04-07T07:42:40.776Z",
         "line": 3,
         "name": "Launch the url",
         "description": "",
@@ -798,7 +797,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8693251400,
+              "duration": 5591048700,
               "status": "passed"
             },
             "line": 5,
@@ -810,7 +809,7 @@
           },
           {
             "result": {
-              "duration": 1375901800,
+              "duration": 588454500,
               "status": "passed"
             },
             "line": 6,
@@ -834,7 +833,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-06T13:28:58.219Z",
+        "start_timestamp": "2023-04-07T07:42:46.967Z",
         "line": 3,
         "name": "Open Empower site",
         "description": "",
@@ -844,7 +843,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25811494200,
+              "duration": 20430627500,
               "status": "passed"
             },
             "line": 4,
@@ -856,7 +855,7 @@
           },
           {
             "result": {
-              "duration": 1027422700,
+              "duration": 246339700,
               "status": "passed"
             },
             "line": 5,
@@ -880,7 +879,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-06T13:29:25.092Z",
+        "start_timestamp": "2023-04-07T07:43:07.655Z",
         "line": 3,
         "name": "I want to launch the OrangeHrm  url",
         "description": "",
@@ -890,7 +889,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8896316100,
+              "duration": 8161422300,
               "status": "passed"
             },
             "line": 5,
@@ -902,7 +901,7 @@
           },
           {
             "result": {
-              "duration": 573111000,
+              "duration": 176344700,
               "status": "passed"
             },
             "line": 6,
