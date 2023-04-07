@@ -14,11 +14,12 @@ import io.cucumber.junit.CucumberOptions;
 		  ,"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
   publish = true, 
   monochrome= true,
-  dryRun= false)
+  dryRun= false ,
+  strict = true)
  
 
 public class Maret_Runner 
 {
 
-	//"C:\\Users\\Dinesh K\\eclipse-workspace\\Maret\\src\\test\\resources\\Feature"
+	//  "C:\\Users\\Dinesh K\\eclipse-workspace\\Maret\\src\\test\\resources\\Feature"
 }
