@@ -3,7 +3,53 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-04-07T13:18:09.708Z",
+        "start_timestamp": "2023-04-10T12:39:15.564Z",
+        "line": 3,
+        "name": "Open Amazon site",
+        "description": "",
+        "id": "amazon-website-test;open-amazon-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5943402100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Url",
+            "match": {
+              "location": "Maret_Step_Definition.OpenAmazon.open_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 484217900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Close Url",
+            "match": {
+              "location": "Maret_Step_Definition.OpenAmazon.close_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon website test",
+    "description": "",
+    "id": "amazon-website-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Amazon.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-10T12:39:22.202Z",
         "line": 3,
         "name": "launch the url",
         "description": "",
@@ -13,7 +59,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4713309500,
+              "duration": 4078805600,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 401478100,
+              "duration": 285763400,
               "status": "passed"
             },
             "line": 6,
@@ -43,6 +89,836 @@
     "id": "flipkart-signup",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Feature/Flipkart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-10T12:39:26.615Z",
+        "line": 3,
+        "name": "I want to launch the url",
+        "description": "",
+        "id": "google-signup;i-want-to-launch-the-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2927848800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am able to enter the Url",
+            "match": {
+              "location": "Maret_Step_Definition.GoogleSignUp.i_am_able_to_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183930900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the url",
+            "match": {
+              "location": "Maret_Step_Definition.GoogleSignUp.close_the_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google signup",
+    "description": "",
+    "id": "google-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Googlesignup.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-10T12:39:29.763Z",
+        "line": 19,
+        "name": "Signup with credential",
+        "description": "",
+        "id": "signup;signup-with-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5752011200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Signup page",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_am_on_the_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3104536300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter a FirstName \"DineshKrish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DineshKrish\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_a_first_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3090441900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter a Last Name \"Krish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Krish\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_a_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3137681000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the DOB \"02-07-2001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"02-07-2001\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_dob(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput class\u003d\"form-check-input\" type\u003d\"radio\" name\u003d\"gender\" value\u003d\"Female\" id\u003d\"filter-1\"\u003e is not clickable at point (201, 177). Other element would receive the click: \u003cth class\u003d\"dow\"\u003e...\u003c/th\u003e\n  (Session info: chrome\u003d112.0.5615.49)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [141ccf556377e7224b1e2fb619d814d9, clickElement {id\u003d8e194af2-038f-47a3-9ce6-1f9f5cbaa465}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\DINESH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53957}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53957/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (141ccf556377e7224b1e2fb619d814d9)] -\u003e xpath: (//input[@name\u003d\u0027gender\u0027])[2]]\nSession ID: 141ccf556377e7224b1e2fb619d814d9\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender(Maret_Signup.java:46)\r\n\tat ✽.I am able to pick the gender(file:///C:/Users/Dinesh%20K/eclipse-workspace/Maret/src/test/resources/Feature/Maret_Signup.feature:9)\r\n",
+              "duration": 1114053400,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I am able to pick the gender",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter the Citizenship \"India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"India\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_citizenship(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter the Current Location \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_current_location(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter the Mobile Number \"6379732890\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6379732890\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_mobile_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 994800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter the Valid Email \"feyaj430487@wiroute.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"feyaj430487@wiroute.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_valid_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I am able to enter the create account button",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_am_able_to_enter_the_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should be redirected to the dashboard page",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_should_be_redirected_to_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-10T12:39:46.046Z",
+        "line": 20,
+        "name": "Signup with credential",
+        "description": "",
+        "id": "signup;signup-with-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5928180300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Signup page",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_am_on_the_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3072571200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter a FirstName \"11111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11111\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_a_first_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3077832300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter a Last Name \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_a_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3139760300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the DOB \"11111111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11111111\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_dob(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput class\u003d\"form-check-input\" type\u003d\"radio\" name\u003d\"gender\" value\u003d\"Female\" id\u003d\"filter-1\"\u003e is not clickable at point (201, 177). Other element would receive the click: \u003cth class\u003d\"dow\"\u003e...\u003c/th\u003e\n  (Session info: chrome\u003d112.0.5615.49)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c1f03fcc3cde063d2423ac3c4c1a51a2, clickElement {id\u003dc003eb9d-ad39-4283-bf48-26928acbae8a}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\DINESH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53988}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53988/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (c1f03fcc3cde063d2423ac3c4c1a51a2)] -\u003e xpath: (//input[@name\u003d\u0027gender\u0027])[2]]\nSession ID: c1f03fcc3cde063d2423ac3c4c1a51a2\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender(Maret_Signup.java:46)\r\n\tat ✽.I am able to pick the gender(file:///C:/Users/Dinesh%20K/eclipse-workspace/Maret/src/test/resources/Feature/Maret_Signup.feature:9)\r\n",
+              "duration": 1059768000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I am able to pick the gender",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter the Citizenship \"1119\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1119\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_citizenship(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter the Current Location \"1115\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1115\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_current_location(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter the Mobile Number \"DineshK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DineshK\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_mobile_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter the Valid Email \"111285@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"111285@gmail.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_valid_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I am able to enter the create account button",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_am_able_to_enter_the_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should be redirected to the dashboard page",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_should_be_redirected_to_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-10T12:40:02.353Z",
+        "line": 21,
+        "name": "Signup with credential",
+        "description": "",
+        "id": "signup;signup-with-credential;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6267075500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Signup page",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_am_on_the_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3054135900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter a FirstName \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_a_first_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3064621600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter a Last Name \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_a_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3074711700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the DOB \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_dob(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput class\u003d\"form-check-input\" type\u003d\"radio\" name\u003d\"gender\" value\u003d\"Female\" id\u003d\"filter-1\"\u003e is not clickable at point (201, 177). Other element would receive the click: \u003cth class\u003d\"dow\"\u003e...\u003c/th\u003e\n  (Session info: chrome\u003d112.0.5615.49)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5316b154164ba0e9fb7e65498e8881fb, clickElement {id\u003dd3e43706-26a4-434d-8ee6-b573a81f018b}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\\Users\\DINESH~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54036}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54036/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (5316b154164ba0e9fb7e65498e8881fb)] -\u003e xpath: (//input[@name\u003d\u0027gender\u0027])[2]]\nSession ID: 5316b154164ba0e9fb7e65498e8881fb\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender(Maret_Signup.java:46)\r\n\tat ✽.I am able to pick the gender(file:///C:/Users/Dinesh%20K/eclipse-workspace/Maret/src/test/resources/Feature/Maret_Signup.feature:9)\r\n",
+              "duration": 1064314500,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I am able to pick the gender",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_am_able_to_pick_the_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter the Citizenship \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_citizenship(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter the Current Location \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_current_location(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter the Mobile Number \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_mobile_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter the Valid Email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Maret_Step_Definition.Maret_Signup.i_enter_the_valid_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 994800,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I am able to enter the create account button",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_am_able_to_enter_the_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should be redirected to the dashboard page",
+            "match": {
+              "location": "Maret_Step_Definition.Maret_Signup.i_should_be_redirected_to_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Signup",
+    "description": "As a user, I want to be able to signup for the site so that I can access the site\u0027s features.",
+    "id": "signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Maret_Signup.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-10T12:40:18.906Z",
+        "line": 3,
+        "name": "launch the Mynthra url",
+        "description": "",
+        "id": "mynthra-signup;launch-the-mynthra-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9376464900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Mynthra the Url",
+            "match": {
+              "location": "Maret_Step_Definition.Mynthra_Signup.enter_mynthra_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 292246500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close Mynthra url",
+            "match": {
+              "location": "Maret_Step_Definition.Mynthra_Signup.close_mynthra_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mynthra signup",
+    "description": "",
+    "id": "mynthra-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Mynthra.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-10T12:40:28.621Z",
+        "line": 3,
+        "name": "Open 1clx site",
+        "description": "",
+        "id": "1clx-website-test;open-1clx-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Open 1clx Url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Close 1clx site",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "1clx website test",
+    "description": "",
+    "id": "1clx-website-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Open1clx.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-10T12:40:28.647Z",
+        "line": 3,
+        "name": "Launch the url",
+        "description": "",
+        "id": "youtube-signup;launch-the-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5216934900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to enter the Url",
+            "match": {
+              "location": "Maret_Step_Definition.Youtube.i_want_to_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 298832900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close url",
+            "match": {
+              "location": "Maret_Step_Definition.Youtube.close_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Youtube signup",
+    "description": "",
+    "id": "youtube-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Youtube.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-10T12:40:34.188Z",
+        "line": 3,
+        "name": "Open Empower site",
+        "description": "",
+        "id": "empower-website-test;open-empower-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8753483700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Empower Url",
+            "match": {
+              "location": "Maret_Step_Definition.empowersiteTest.open_empower_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237002400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Close Empower Url",
+            "match": {
+              "location": "Maret_Step_Definition.empowersiteTest.close_empower_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Empower website test",
+    "description": "",
+    "id": "empower-website-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/empowerTherapy.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-10T12:40:43.196Z",
+        "line": 3,
+        "name": "I want to launch the OrangeHrm  url",
+        "description": "",
+        "id": "orangehrm-signup;i-want-to-launch-the-orangehrm--url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8038164300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am able to enter the OrangeHrm Url",
+            "match": {
+              "location": "Maret_Step_Definition.OrangeHrm.i_am_able_to_enter_the_orange_hrm_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165547900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the OrangeHrm  url",
+            "match": {
+              "location": "Maret_Step_Definition.OrangeHrm.close_the_orange_hrm_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHrm signup",
+    "description": "",
+    "id": "orangehrm-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/orangehrm.feature",
     "tags": []
   }
 ]
